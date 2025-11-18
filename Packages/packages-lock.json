@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< Updated upstream
     "com.unity.2d.animation": {
       "version": "12.0.2",
       "depth": 1,
@@ -59,12 +60,15 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
     },
+<<<<<<< Updated upstream
     "com.unity.2d.spriteshape": {
       "version": "12.0.1",
       "depth": 1,
@@ -124,6 +128,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.burst": {
       "version": "1.8.25",
       "depth": 2,

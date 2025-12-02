@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 7098f9d9d2ba3a74297f4388c56cf307
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lamps_Assetsheet_1
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 238
+        width: 977
+        height: 3629
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c9093373b268e4a906ddb0b91603e6
+      internalID: 870866916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamps_Assetsheet_2
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 511
+        width: 1026
+        height: 3356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64d843d3b9b4ee4f96d8a8ad9064bc5
+      internalID: 1530271626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d1e6ba5a282e68d4b827167888f6373c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Lamps_Assetsheet_0: -29093983
+      Lamps_Assetsheet_1: 870866916
+      Lamps_Assetsheet_10: 2070456061
+      Lamps_Assetsheet_11: 715318423
+      Lamps_Assetsheet_12: -1481919018
+      Lamps_Assetsheet_13: -875806588
+      Lamps_Assetsheet_14: -503854814
+      Lamps_Assetsheet_15: -1039788655
+      Lamps_Assetsheet_16: 98754026
+      Lamps_Assetsheet_17: 768125259
+      Lamps_Assetsheet_18: 1362532157
+      Lamps_Assetsheet_19: 391148569
+      Lamps_Assetsheet_2: 1530271626
+      Lamps_Assetsheet_20: 393545958
+      Lamps_Assetsheet_21: 1776734532
+      Lamps_Assetsheet_22: 811760043
+      Lamps_Assetsheet_23: 1792759468
+      Lamps_Assetsheet_24: 635748037
+      Lamps_Assetsheet_25: 2106052024
+      Lamps_Assetsheet_26: -1423757820
+      Lamps_Assetsheet_27: 475416176
+      Lamps_Assetsheet_28: 1900485177
+      Lamps_Assetsheet_29: 1094825788
+      Lamps_Assetsheet_3: -620169056
+      Lamps_Assetsheet_30: -1575426707
+      Lamps_Assetsheet_31: 42896727
+      Lamps_Assetsheet_32: 656239424
+      Lamps_Assetsheet_33: 220012240
+      Lamps_Assetsheet_34: -1999017321
+      Lamps_Assetsheet_35: -1369762937
+      Lamps_Assetsheet_36: 1498842271
+      Lamps_Assetsheet_4: 546387656
+      Lamps_Assetsheet_5: -681795197
+      Lamps_Assetsheet_6: -905237917
+      Lamps_Assetsheet_7: 14965585
+      Lamps_Assetsheet_8: 1786658978
+      Lamps_Assetsheet_9: -2114483561
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

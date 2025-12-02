@@ -32,7 +32,7 @@ public class PlayerLedgeGrab : MonoBehaviour
     {
         float dir = GetDirectionInput();
         if (dir == 0) return;
-        if (!Input.GetKey(KeyCode.Space)) return;
+        
 
         Vector3 dirVec = dir > 0 ? Vector3.right : Vector3.left;
         float start = dir > 0 ? rayStartOffset : -rayStartOffset;

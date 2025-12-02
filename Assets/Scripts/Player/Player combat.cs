@@ -1,7 +1,7 @@
 using System.Net.Mail;
 using UnityEngine;
 
-public class Playercombat : MonoBehaviour
+public class PlayerCombat : MonoBehaviour
 {
     public Animator animator;
 
@@ -13,7 +13,7 @@ public class Playercombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space)) 
+        if (Input.GetKeyUp(KeyCode.Mouse0)) 
         {
             Attack();
 
@@ -27,7 +27,7 @@ public class Playercombat : MonoBehaviour
 
         foreach(Collider enemy in hitEnemies)
         {
-            enemy.GetComponent<enemy>().TakeDamage(attackDamage);
+            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
     }
 

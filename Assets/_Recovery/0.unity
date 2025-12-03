@@ -790,7 +790,7 @@ MonoBehaviour:
   moveSpeed: 5
   lastInput: 0
   jumpForce: 7
-  extraJumpTime: 0.5
+  extraJumpTime: 0.2
 --- !u!114 &6086897141858047462
 MonoBehaviour:
   m_ObjectHideFlags: 0

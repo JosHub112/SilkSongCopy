@@ -10,6 +10,7 @@ public class PlayerCore : MonoBehaviour
     [HideInInspector] public Rigidbody rb;
     [HideInInspector] public Animator anim;
 
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();

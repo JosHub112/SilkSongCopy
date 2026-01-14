@@ -482,6 +482,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &572991550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 652532349178812275, guid: aae68dc0dee305048acafa583f16b1b3, type: 3}
+  m_PrefabInstance: {fileID: 4851645044266158150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &572991555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572991550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 269e9ca356daf3c4b9da68620b90f493, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationController
+  keyMappings:
+  - key: 1
+    animationTrigger: Glint
+  - key: 2
+    animationTrigger: Broken
+  - key: 3
+    animationTrigger: Mask
+  keyDisplayText: {fileID: 0}
+  displayDuration: 1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

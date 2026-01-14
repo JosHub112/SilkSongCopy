@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: dd08f64e460113b418c3e56cb7cd2889
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6431222166044390018
+    second: M6BO_Voorgrond-Assets_0
+  - first:
+      213: -3944892145974679590
+    second: M6BO_Voorgrond-Assets_1
+  - first:
+      213: -8027396233700527131
+    second: M6BO_Voorgrond-Assets_2
+  - first:
+      213: 2560108442553602404
+    second: M6BO_Voorgrond-Assets_3
+  - first:
+      213: 5998293861907894535
+    second: M6BO_Voorgrond-Assets_4
+  - first:
+      213: -2815091967747155984
+    second: M6BO_Voorgrond-Assets_5
+  - first:
+      213: -7729111459086654368
+    second: M6BO_Voorgrond-Assets_6
+  - first:
+      213: 289086065832276085
+    second: M6BO_Voorgrond-Assets_7
+  - first:
+      213: -8295136797040463188
+    second: M6BO_Voorgrond-Assets_8
+  - first:
+      213: 5836861100837771267
+    second: M6BO_Voorgrond-Assets_9
+  - first:
+      213: 2560571287945660249
+    second: M6BO_Voorgrond-Assets_10
+  - first:
+      213: -3152225820544077239
+    second: M6BO_Voorgrond-Assets_11
+  - first:
+      213: 2610998723840020202
+    second: M6BO_Voorgrond-Assets_12
+  - first:
+      213: 1398972351090127598
+    second: M6BO_Voorgrond-Assets_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_0
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1559
+        width: 734
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282b1b66c7a404950800000000000000
+      internalID: 6431222166044390018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_1
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 1748
+        width: 46
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad763f18e7de049c0800000000000000
+      internalID: -3944892145974679590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_2
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 1755
+        width: 116
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3b8fa08a5f89090800000000000000
+      internalID: -8027396233700527131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_3
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 1814
+        width: 58
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461d2e08015578320800000000000000
+      internalID: 2560108442553602404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_4
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 1663
+        width: 226
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7011d61bc783e3350800000000000000
+      internalID: 5998293861907894535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_5
+      rect:
+        serializedVersion: 2
+        x: 3425
+        y: 1554
+        width: 315
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7106435c8cee8d0800000000000000
+      internalID: -2815091967747155984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1079
+        width: 623
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0642dbb141eacb490800000000000000
+      internalID: -7729111459086654368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_7
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 873
+        width: 578
+        height: 917
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570b277ce3a030400800000000000000
+      internalID: 289086065832276085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_8
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 966
+        width: 866
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2b1295801c1ec80800000000000000
+      internalID: -8295136797040463188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_9
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 598
+        width: 751
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3081bb60f32b00150800000000000000
+      internalID: 5836861100837771267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_10
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 121
+        width: 715
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957c018150af88320800000000000000
+      internalID: 2560571287945660249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_11
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 140
+        width: 655
+        height: 917
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942f7a2415b0144d0800000000000000
+      internalID: -3152225820544077239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_12
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 113
+        width: 1774
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee8b7371812c3420800000000000000
+      internalID: 2610998723840020202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M6BO_Voorgrond-Assets_13
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 113
+        width: 304
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2f155f0f52a6310800000000000000
+      internalID: 1398972351090127598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      M6BO_Voorgrond-Assets_0: 6431222166044390018
+      M6BO_Voorgrond-Assets_1: -3944892145974679590
+      M6BO_Voorgrond-Assets_10: 2560571287945660249
+      M6BO_Voorgrond-Assets_11: -3152225820544077239
+      M6BO_Voorgrond-Assets_12: 2610998723840020202
+      M6BO_Voorgrond-Assets_13: 1398972351090127598
+      M6BO_Voorgrond-Assets_2: -8027396233700527131
+      M6BO_Voorgrond-Assets_3: 2560108442553602404
+      M6BO_Voorgrond-Assets_4: 5998293861907894535
+      M6BO_Voorgrond-Assets_5: -2815091967747155984
+      M6BO_Voorgrond-Assets_6: -7729111459086654368
+      M6BO_Voorgrond-Assets_7: 289086065832276085
+      M6BO_Voorgrond-Assets_8: -8295136797040463188
+      M6BO_Voorgrond-Assets_9: 5836861100837771267
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

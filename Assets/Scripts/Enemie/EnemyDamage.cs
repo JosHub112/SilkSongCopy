@@ -1,54 +1,53 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Collider2D))]
-public class EnemyDamage : MonoBehaviour
+[RequireComponent(typeof(Collider))]
+public class EnemyDamageTrigger : MonoBehaviour
 {
     public int damage = 1;
-    public bool onlyDamageOncePerContact = true;
+    public bool singleUse = false;
 
-    // simple cooldown to avoid spamming if you keep touching (optional)
-    public float rehitCooldown = 0.5f;
-    float lastHitTime = -10f;
-
-    private void Reset()
+    void Reset()
     {
-        // ensure collider is trigger by default for simple use
-        var col = GetComponent<Collider2D>();
-        col.isTrigger = true;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (Time.time - lastHitTime < rehitCooldown) return;
-
-        if (other.CompareTag("Player"))
+        var c = GetComponent<Collider2D>();
+        if (c != null)
         {
-            // PlayerHealth will handle invul, so we can just call it
-            var ph = other.GetComponent<PlayerLifes>();
-            if (ph != null)
-            {
-                ph.TakeDamage(damage);
-                lastHitTime = Time.time;
-            }
+            c.isTrigger = true;
+            Debug.Log("[EnemyDamageTrigger] Reset: Collider set to Trigger");
         }
     }
 
-    // Draw a gizmo so you can see the block while editing
-    private void OnDrawGizmos()
+    void Awake()
     {
-        Gizmos.color = new Color(1f, 0f, 0f, 0.5f);
-        // Draw the collider bounds if possible
-        var col = GetComponent<Collider2D>();
-        if (col != null)
+        Debug.Log("[EnemyDamageTrigger] Awake on: " + gameObject.name);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("[EnemyDamageTrigger] Trigger ENTER detected on: " + gameObject.name);
+        Debug.Log("[EnemyDamageTrigger] Collided with: " + other.gameObject.name);
+
+        var pl = other.GetComponent<PlayerLives>();
+
+        if (pl == null)
         {
-            Bounds b = col.bounds;
-            Gizmos.DrawCube(b.center, b.size);
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireCube(b.center, b.size);
+            Debug.Log("[EnemyDamageTrigger] PlayerLives NOT found on object");
+            pl = other.GetComponentInParent<PlayerLives>();
+        }
+
+        if (pl != null)
+        {
+            Debug.Log("[EnemyDamageTrigger] PlayerLives FOUND, applying damage: " + damage);
+            pl.TakeDamage(damage);
+
+            if (singleUse)
+            {
+                Debug.Log("[EnemyDamageTrigger] Single use enabled, destroying: " + gameObject.name);
+                Destroy(gameObject);
+            }
         }
         else
         {
-            Gizmos.DrawCube(transform.position, Vector3.one);
+            Debug.Log("[EnemyDamageTrigger] No valid PlayerLives script found anywhere");
         }
     }
 }

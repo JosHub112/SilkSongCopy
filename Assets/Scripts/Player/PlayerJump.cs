@@ -42,12 +42,12 @@ public class PlayerJump : PlayerMove
                 
         }
 
-        /*   if ( Input.GetKey(KeyCode.Space) && _jumpTimeCounter > 0)
+         if ( Input.GetKey(KeyCode.Space) && _jumpTimeCounter > 0)
            {
                core.rb.AddForce(Vector3.up * jumpForce * Time.deltaTime, ForceMode.Impulse);
                _jumpTimeCounter -= Time.deltaTime;
 
-           } */
+           } 
 
 
     }

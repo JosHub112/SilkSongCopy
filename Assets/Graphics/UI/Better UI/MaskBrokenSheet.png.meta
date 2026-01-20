@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: 075f5c5849959774791050107ec8b502
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6405262980583322650
+    second: MaskBrokenSheet_0
+  - first:
+      213: 584698598043118953
+    second: MaskBrokenSheet_1
+  - first:
+      213: 8112083586653904019
+    second: MaskBrokenSheet_2
+  - first:
+      213: 7964361026204899531
+    second: MaskBrokenSheet_3
+  - first:
+      213: -4313260844326558673
+    second: MaskBrokenSheet_4
+  - first:
+      213: -5594559955692733837
+    second: MaskBrokenSheet_5
+  - first:
+      213: -9087321180608298541
+    second: MaskBrokenSheet_6
+  - first:
+      213: 4210362258977957828
+    second: MaskBrokenSheet_7
+  - first:
+      213: 6555219969000993327
+    second: MaskBrokenSheet_8
+  - first:
+      213: 424656352778578878
+    second: MaskBrokenSheet_9
+  - first:
+      213: 7370150905632555498
+    second: MaskBrokenSheet_10
+  - first:
+      213: -5188466064666447391
+    second: MaskBrokenSheet_11
+  - first:
+      213: 6538626478331874352
+    second: MaskBrokenSheet_12
+  - first:
+      213: -6278181720916415206
+    second: MaskBrokenSheet_13
+  - first:
+      213: 958474803030108435
+    second: MaskBrokenSheet_14
+  - first:
+      213: -7493236907725987838
+    second: MaskBrokenSheet_15
+  - first:
+      213: 8862170081488011114
+    second: MaskBrokenSheet_16
+  - first:
+      213: 8093874964030114097
+    second: MaskBrokenSheet_17
+  - first:
+      213: -3800384034084559014
+    second: MaskBrokenSheet_18
+  - first:
+      213: -450219284787767530
+    second: MaskBrokenSheet_19
+  - first:
+      213: -8402767276838485200
+    second: MaskBrokenSheet_20
+  - first:
+      213: 5578771840095064278
+    second: MaskBrokenSheet_21
+  - first:
+      213: 2741355620034702681
+    second: MaskBrokenSheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MaskBrokenSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1053
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb0f55714feb17a0800000000000000
+      internalID: -6405262980583322650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1053
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d670de6444d1800800000000000000
+      internalID: 584698598043118953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_2
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1053
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c58cada09e39070800000000000000
+      internalID: 8112083586653904019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_3
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1053
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc898e50828178e60800000000000000
+      internalID: 7964361026204899531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_4
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1053
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24605e5d183424c0800000000000000
+      internalID: -4313260844326558673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a3f4e8c512c52b0800000000000000
+      internalID: -5594559955692733837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_6
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 702
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d185fd688953e180800000000000000
+      internalID: -9087321180608298541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_7
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 702
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7a716ca263e6a30800000000000000
+      internalID: 4210362258977957828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_8
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 702
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22f9dca4d1d8fa50800000000000000
+      internalID: 6555219969000993327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_9
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 702
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbeaf2f3bea4e500800000000000000
+      internalID: 424656352778578878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1804f2339084660800000000000000
+      internalID: 7370150905632555498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_11
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 351
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e133669a9ddef7b0800000000000000
+      internalID: -5188466064666447391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_12
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 351
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c4fef832eddba50800000000000000
+      internalID: 6538626478331874352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_13
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 351
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d2d61fcfa6fd8a0800000000000000
+      internalID: -6278181720916415206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_14
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 351
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319a5c051cf2d4d00800000000000000
+      internalID: 958474803030108435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2006529bbbca20890800000000000000
+      internalID: -7493236907725987838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fff2e3cb0ccfa70800000000000000
+      internalID: 8862170081488011114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13941778568335070800000000000000
+      internalID: 8093874964030114097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_18
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 0
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57e2563bd2524bc0800000000000000
+      internalID: -3800384034084559014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskBrokenSheet_19
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 0
+        width: 241
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617d13322ff70c9f0800000000000000
+      internalID: -450219284787767530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6e4d287267af38446aa99b5ff680abae
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":4.0},"gridSpriteSize":{"x":241.0,"y":351.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MaskBrokenSheet_0: -6405262980583322650
+      MaskBrokenSheet_1: 584698598043118953
+      MaskBrokenSheet_10: 7370150905632555498
+      MaskBrokenSheet_11: -5188466064666447391
+      MaskBrokenSheet_12: 6538626478331874352
+      MaskBrokenSheet_13: -6278181720916415206
+      MaskBrokenSheet_14: 958474803030108435
+      MaskBrokenSheet_15: -7493236907725987838
+      MaskBrokenSheet_16: 8862170081488011114
+      MaskBrokenSheet_17: 8093874964030114097
+      MaskBrokenSheet_18: -3800384034084559014
+      MaskBrokenSheet_19: -450219284787767530
+      MaskBrokenSheet_2: 8112083586653904019
+      MaskBrokenSheet_3: 7964361026204899531
+      MaskBrokenSheet_4: -4313260844326558673
+      MaskBrokenSheet_5: -5594559955692733837
+      MaskBrokenSheet_6: -9087321180608298541
+      MaskBrokenSheet_7: 4210362258977957828
+      MaskBrokenSheet_8: 6555219969000993327
+      MaskBrokenSheet_9: 424656352778578878
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -448,6 +448,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8360472008844767364, guid: 9ce4b810833a43b418c82e1b1a336339,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8381157581013776804, guid: 9ce4b810833a43b418c82e1b1a336339,
         type: 3}
       propertyPath: m_Enabled
@@ -1431,7 +1436,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 4713187389522640589, guid: 42ea5147ca3b15d468ccce7d8306feaa,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1452,7 +1458,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.06, y: 0.04, z: -0.04300022}
-  m_LocalScale: {x: 3.93464, y: 7.05469, z: 1}
+  m_LocalScale: {x: 0.1902158, y: 0.22966847, z: 0.70752674}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1346139485}
@@ -1517,7 +1523,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.28
+  m_Radius: 1.1
   m_Height: 0.3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}

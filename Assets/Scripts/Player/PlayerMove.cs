@@ -1,43 +1,39 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    [Header("Movement")]
     public float moveSpeed = 5f;
-    public float lastInput;
 
-    PlayerCore core;
+    [Header("References")]
+    public Animator animator;
+
+    public float lastInput { get; private set; }
+
+    PlayerCombat combat;
 
     void Start()
     {
-        core = GetComponent<PlayerCore>();
+        combat = GetComponent<PlayerCombat>();
     }
 
     void Update()
     {
-        float input = Input.GetAxis("Horizontal");
+        float input = Input.GetAxisRaw("Horizontal");
         lastInput = input;
 
-        // Movement
+        // Move
         transform.Translate(Vector3.right * input * moveSpeed * Time.deltaTime);
 
-        // Flip player model
+        // Flip player (direction change does NOT stop run)
         if (input != 0)
         {
             Vector3 scale = transform.localScale;
-            scale.x = Mathf.Sign(input); // 1 when moving right, -1 when left
+            scale.x = Mathf.Sign(input);
             transform.localScale = scale;
         }
 
-        HandleAnimations(input);
-    }
-
-    void HandleAnimations(float input)
-    {
-        if (!core.IsGrounded()) return;
-
-        if (input != 0)
-            core.anim.Play("PlayerRun"); // 1 animation for both directions
-        else
-            core.anim.Play("Idle");
+        // Animator (run if moving, regardless of direction)
+        animator.SetBool("Isrunning", input != 0);
     }
 }

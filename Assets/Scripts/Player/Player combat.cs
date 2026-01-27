@@ -1,72 +1,39 @@
-using System.Collections;
+using System.Net.Mail;
 using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-    [Header("References")]
     public Animator animator;
+
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
-    [Header("Attack Settings")]
     public int attackDamage = 40;
     public float attackRange = 0.5f;
-
-    [Header("Timing (match your animation)")]
-    public float attackHitDelay = 0.3f;   // when damage happens
-    public float attackTotalTime = 0.7f;  // full animation length
-
-    public bool IsAttacking { get; private set; }
-
+    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Mouse0))
+        if (Input.GetKeyUp(KeyCode.Mouse0)) 
         {
-            // Prevent attack spam
-            if (!IsAttacking)
-            {
-                StartCoroutine(AttackRoutine());
-            }
+            Attack();
+
         }
     }
-
-    IEnumerator AttackRoutine()
+    void Attack()
     {
-        IsAttacking = true;
+        //animator.SetTrigger("Attack");
 
-        // Trigger attack animation
-        animator.SetTrigger("Attack");
+        Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayers);
 
-        // Wait until the hit frame
-        yield return new WaitForSeconds(attackHitDelay);
-
-        // Detect enemies
-        Collider[] hitEnemies = Physics.OverlapSphere(
-            attackPoint.position,
-            attackRange,
-            enemyLayers
-        );
-
-        foreach (Collider enemy in hitEnemies)
+        foreach(Collider enemy in hitEnemies)
         {
-            Enemy enemyScript = enemy.GetComponent<Enemy>();
-            if (enemyScript != null)
-            {
-                enemyScript.TakeDamage(attackDamage);
-            }
+            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
-
-        // Wait for the rest of the animation
-        yield return new WaitForSeconds(attackTotalTime - attackHitDelay);
-
-        IsAttacking = false;
     }
 
     private void OnDrawGizmosSelected()
     {
-        if (attackPoint == null) return;
-
-        Gizmos.color = Color.red;
+        if (attackPoint == null) {return;}
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

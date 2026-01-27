@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerLives : MonoBehaviour
 {
@@ -66,6 +67,14 @@ public class PlayerLives : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("[PlayerLives] PLAYER DIED");
+        Debug.Log("[PlayerLives] PLAYER DIED – reloading scene");
+
+        // Optional: prevent negative lives or double calls
+        currentLives = 0;
+
+        // Reload current scene
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.buildIndex);
     }
+
 }

@@ -483,6 +483,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6869634429808410789, guid: 9ce4b810833a43b418c82e1b1a336339,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869634429808410789, guid: 9ce4b810833a43b418c82e1b1a336339,
+        type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6b28b9440581da745ab3ddb1f527bcb2, type: 2}
@@ -509,7 +514,11 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5226218232133458369, guid: 9ce4b810833a43b418c82e1b1a336339,
         type: 3}
-      insertIndex: 4
+      insertIndex: 2
+      addedObject: {fileID: 1346139497}
+    - targetCorrespondingSourceObject: {fileID: 5226218232133458369, guid: 9ce4b810833a43b418c82e1b1a336339,
+        type: 3}
+      insertIndex: 5
       addedObject: {fileID: 1346139486}
     - targetCorrespondingSourceObject: {fileID: 5226218232133458369, guid: 9ce4b810833a43b418c82e1b1a336339,
         type: 3}
@@ -1367,7 +1376,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1208896045}
-  - component: {fileID: 1208896046}
   - component: {fileID: 1208896048}
   - component: {fileID: 1208896047}
   - component: {fileID: 1208896044}
@@ -1452,20 +1460,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1346139485}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1208896046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208896042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a82f5c0dddb531242863746ac856e8dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
-  damage: 1
-  singleUse: 0
 --- !u!54 &1208896047
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1741,6 +1735,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1346139497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346139477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a82f5c0dddb531242863746ac856e8dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamageTrigger
+  damage: 1
+  hitCooldown: 1
+  singleUse: 0
 --- !u!1001 &1468544898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1860,19 +1869,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7664042109633859236, guid: f2534f257030bad48bbc23c7cee22361,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 611617223798865481, guid: f2534f257030bad48bbc23c7cee22361, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1037275234280081841, guid: f2534f257030bad48bbc23c7cee22361,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 520835143}
-    - targetCorrespondingSourceObject: {fileID: 3696951208153026872, guid: f2534f257030bad48bbc23c7cee22361,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1260602893}
     - targetCorrespondingSourceObject: {fileID: 5731035658095282766, guid: f2534f257030bad48bbc23c7cee22361,
         type: 3}
       insertIndex: -1
@@ -1881,10 +1887,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1531268901}
-    - targetCorrespondingSourceObject: {fileID: 2471475317561608123, guid: f2534f257030bad48bbc23c7cee22361,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1143086049}
     - targetCorrespondingSourceObject: {fileID: 8942778400050437821, guid: f2534f257030bad48bbc23c7cee22361,
         type: 3}
       insertIndex: -1
@@ -2990,6 +2992,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 588251625294185010}
+    - target: {fileID: 8059572372621191584, guid: 0ce0e521b04cc764db64397775b28d77,
+        type: 3}
+      propertyPath: offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3183,3 +3190,4 @@ SceneRoots:
   - {fileID: 312405855}
   - {fileID: 198192159}
   - {fileID: 305715011}
+  - {fileID: 1468544898}

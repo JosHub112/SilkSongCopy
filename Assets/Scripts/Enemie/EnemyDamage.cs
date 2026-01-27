@@ -1,53 +1,52 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 public class EnemyDamageTrigger : MonoBehaviour
 {
+    [Header("Damage")]
     public int damage = 1;
+
+    [Header("Timing")]
+    public float hitCooldown = 1f;   // Time between hits per player
     public bool singleUse = false;
+
+    // Tracks when each player can be hit again
+    private Dictionary<PlayerLives, float> nextHitTime = new();
 
     void Reset()
     {
-        var c = GetComponent<Collider2D>();
-        if (c != null)
-        {
-            c.isTrigger = true;
-            Debug.Log("[EnemyDamageTrigger] Reset: Collider set to Trigger");
-        }
-    }
-
-    void Awake()
-    {
-        Debug.Log("[EnemyDamageTrigger] Awake on: " + gameObject.name);
+        // Ensure the collider is a trigger
+        Collider c = GetComponent<Collider>();
+        c.isTrigger = true;
     }
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("[EnemyDamageTrigger] Trigger ENTER detected on: " + gameObject.name);
-        Debug.Log("[EnemyDamageTrigger] Collided with: " + other.gameObject.name);
+        TryDamage(other);
+    }
 
-        var pl = other.GetComponent<PlayerLives>();
+    private void TryDamage(Collider other)
+    {
+        PlayerLives pl = other.GetComponentInParent<PlayerLives>();
+        if (pl == null) return;
 
-        if (pl == null)
+        // Cooldown check per player
+        if (nextHitTime.TryGetValue(pl, out float allowedTime))
         {
-            Debug.Log("[EnemyDamageTrigger] PlayerLives NOT found on object");
-            pl = other.GetComponentInParent<PlayerLives>();
+            if (Time.time < allowedTime)
+                return;
         }
 
-        if (pl != null)
-        {
-            Debug.Log("[EnemyDamageTrigger] PlayerLives FOUND, applying damage: " + damage);
-            pl.TakeDamage(damage);
+        // Apply damage
+        pl.TakeDamage(damage);
 
-            if (singleUse)
-            {
-                Debug.Log("[EnemyDamageTrigger] Single use enabled, destroying: " + gameObject.name);
-                Destroy(gameObject);
-            }
-        }
-        else
+        // Set next allowed hit time
+        nextHitTime[pl] = Time.time + hitCooldown;
+
+        if (singleUse)
         {
-            Debug.Log("[EnemyDamageTrigger] No valid PlayerLives script found anywhere");
+            Destroy(gameObject);
         }
     }
 }

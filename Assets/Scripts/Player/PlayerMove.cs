@@ -43,18 +43,7 @@ public class PlayerMove : MonoBehaviour
             transform.localScale = scale;
         }
 
-        HandleAnimations(input);
+        
     }
 
-    public void HandleAnimations(float input)
-    {
-        if (!core.IsGrounded()) return;
-
-        if (input != 0)
-            core.anim.Play("PlayerRun"); // 1 animation for both directions
-        else
-            core.anim.Play("Idle");
-
-      
-    }
 }

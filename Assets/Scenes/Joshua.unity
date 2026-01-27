@@ -242,6 +242,7 @@ GameObject:
   - component: {fileID: 198192158}
   - component: {fileID: 198192157}
   - component: {fileID: 198192156}
+  - component: {fileID: 198192160}
   m_Layer: 5
   m_Name: GameOver
   m_TagString: Untagged
@@ -331,6 +332,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &198192160
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198192155}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b228cc7fbf1413f4a8d4d378948faa99, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &224446121 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5731035658095282766, guid: f2534f257030bad48bbc23c7cee22361,
@@ -458,6 +481,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6869634429808410789, guid: 9ce4b810833a43b418c82e1b1a336339,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6b28b9440581da745ab3ddb1f527bcb2, type: 2}
     - target: {fileID: 8360472008844767364, guid: 9ce4b810833a43b418c82e1b1a336339,
         type: 3}
       propertyPath: m_Enabled
@@ -1736,6 +1764,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   maxHealth: 200
+  shakeDuration: 0.1
+  shakeMagnitude: 0.2
 --- !u!212 &1346139492
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1783,7 +1813,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 4713187389522640589, guid: 42ea5147ca3b15d468ccce7d8306feaa,
+  m_Sprite: {fileID: 4713187389522640589, guid: 59237e58e4e8e4f488012889501d8d88,
     type: 3}
   m_Color: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
   m_FlipX: 0
@@ -2774,7 +2804,7 @@ PrefabInstance:
     - target: {fileID: 6082559947697139363, guid: 27f9efbba3f01a840b3fabbde2c0d572,
         type: 3}
       propertyPath: m_Constraints
-      value: 0
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 6414211012111991771, guid: 27f9efbba3f01a840b3fabbde2c0d572,
         type: 3}
@@ -3056,7 +3086,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6086897141858047458}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e8541a85ed79f4449495406f3dd2b60, type: 3}
   m_Name: 
@@ -3102,6 +3132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92efd8aaa2ed9e545879d6374c2f7db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
+  animator: {fileID: 0}
   attackPoint: {fileID: 1634897311}
   enemyLayers:
     serializedVersion: 2

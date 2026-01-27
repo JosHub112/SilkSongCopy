@@ -17,9 +17,9 @@ public class PlayerCore : MonoBehaviour
         anim = GetComponent<Animator>();
 
         // Lock rotation for platformer feel
-        rb.constraints = RigidbodyConstraints.FreezeRotationX |
-                         RigidbodyConstraints.FreezeRotationZ |
-                         RigidbodyConstraints.FreezePositionZ;
+      //  rb.constraints = RigidbodyConstraints.FreezeRotationX |
+            //             RigidbodyConstraints.FreezeRotationZ |
+             //            RigidbodyConstraints.FreezePositionZ;
     }
 
     public bool IsGrounded()

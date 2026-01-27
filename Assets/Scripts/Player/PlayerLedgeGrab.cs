@@ -59,7 +59,7 @@ public class PlayerLedgeGrab : MonoBehaviour
 
         StartCoroutine(LedgeClimbRoutine(dir));
         GetComponent<PlayerMove>().enabled = false;
-        core.anim.SetTrigger("ledgeClimb");
+      //  core.anim.SetTrigger("ledgeClimb");
     }
 
     IEnumerator LedgeClimbRoutine(float dir)

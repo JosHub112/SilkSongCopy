@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -6,10 +7,13 @@ public class PlayerMove : MonoBehaviour
     public float lastInput;
 
     PlayerCore core;
+    Animator anim;
 
     void Start()
     {
         core = GetComponent<PlayerCore>();
+        anim = GetComponent<Animator>();
+
     }
 
     void Update()
@@ -17,8 +21,19 @@ public class PlayerMove : MonoBehaviour
         float input = Input.GetAxis("Horizontal");
         lastInput = input;
 
-        // Movement
-        transform.Translate(Vector3.right * input * moveSpeed * Time.deltaTime);
+        float runspeed = 1f;
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            runspeed = 2f;
+        }
+
+
+            // Movement
+            Vector3 speed = Vector3.right * input * moveSpeed * Time.deltaTime * runspeed;
+        transform.Translate(speed);
+
+        anim.SetFloat("Speed", Mathf.Abs(speed.x));
+        Debug.Log("Speed: " + Mathf.Abs(speed.x));
 
         // Flip player model
         if (input != 0)

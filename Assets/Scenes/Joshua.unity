@@ -476,10 +476,13 @@ PrefabInstance:
       insertIndex: 6
       addedObject: {fileID: 1346139486}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - targetCorrespondingSourceObject: {fileID: 5226218232133458369, guid: 9ce4b810833a43b418c82e1b1a336339,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1346139498}
+=======
+>>>>>>> parent of 5ee076a (Added Dotween)
 =======
 >>>>>>> parent of 5ee076a (Added Dotween)
     - targetCorrespondingSourceObject: {fileID: 3313960929293360812, guid: 9ce4b810833a43b418c82e1b1a336339,
@@ -1395,6 +1398,9 @@ GameObject:
   - component: {fileID: 1208896046}
   - component: {fileID: 1208896044}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 5ee076a (Added Dotween)
+=======
 >>>>>>> parent of 5ee076a (Added Dotween)
 =======
 >>>>>>> parent of 5ee076a (Added Dotween)
@@ -1725,6 +1731,7 @@ MonoBehaviour:
   maxHealth: 100
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   shakeDuration: 0.1
   shakeMagnitude: 0.2
 --- !u!212 &1346139492
@@ -1800,6 +1807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   damage: 1
   singleUse: 0
+=======
+>>>>>>> parent of 5ee076a (Added Dotween)
 =======
 >>>>>>> parent of 5ee076a (Added Dotween)
 =======

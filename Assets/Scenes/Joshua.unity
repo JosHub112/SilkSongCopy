@@ -3110,7 +3110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92efd8aaa2ed9e545879d6374c2f7db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
-  animator: {fileID: 0}
+  animator: {fileID: 6086897141858047479}
   attackPoint: {fileID: 1634897311}
   enemyLayers:
     serializedVersion: 2
@@ -3176,6 +3176,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &6086897141858047479 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4877960225796075437, guid: 27f9efbba3f01a840b3fabbde2c0d572,
+    type: 3}
+  m_PrefabInstance: {fileID: 2975344194813639278}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

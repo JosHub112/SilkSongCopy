@@ -10,6 +10,12 @@ public class PlayerCombat : MonoBehaviour
 
     public int attackDamage = 40;
     public float attackRange = 0.5f;
+
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -21,11 +27,12 @@ public class PlayerCombat : MonoBehaviour
     }
     void Attack()
     {
-        //animator.SetTrigger("Attack");
+        animator.SetTrigger("Attack");
 
         Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayers);
 
-        foreach(Collider enemy in hitEnemies)
+
+        foreach (Collider enemy in hitEnemies)
         {
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }

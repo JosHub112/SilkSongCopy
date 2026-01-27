@@ -2108,7 +2108,7 @@ Transform:
   m_GameObject: {fileID: 1634897310}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.14, y: 0.62, z: 0}
+  m_LocalPosition: {x: 0.89, y: -0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2789,17 +2789,17 @@ PrefabInstance:
     - target: {fileID: 6414211012111991771, guid: 27f9efbba3f01a840b3fabbde2c0d572,
         type: 3}
       propertyPath: m_Center.x
-      value: -0.12
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: 6414211012111991771, guid: 27f9efbba3f01a840b3fabbde2c0d572,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.52
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6414211012111991771, guid: 27f9efbba3f01a840b3fabbde2c0d572,
         type: 3}
       propertyPath: m_Center.z
-      value: -0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6738172719093984759, guid: 27f9efbba3f01a840b3fabbde2c0d572,
         type: 3}
@@ -2926,6 +2926,11 @@ PrefabInstance:
       objectReference: {fileID: 588251625294185010}
     - target: {fileID: 45638802063661017, guid: 60ee7f8fe91bdef47bc8b025d078bab6,
         type: 3}
+      propertyPath: offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45638802063661017, guid: 60ee7f8fe91bdef47bc8b025d078bab6,
+        type: 3}
       propertyPath: smoothSpeed
       value: 2
       objectReference: {fileID: 0}
@@ -3040,8 +3045,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 72
-  groundRayOffset: 2.25
-  groundRayLength: 2
+  groundRayOffset: 0
+  groundRayLength: 1.5
   rb: {fileID: 0}
   anim: {fileID: 0}
 --- !u!114 &6086897141858047464
@@ -3079,12 +3084,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerLifes
   maxLives: 6
   currentLives: 6
---- !u!95 &6086897141858047471 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4877960225796075437, guid: 27f9efbba3f01a840b3fabbde2c0d572,
-    type: 3}
-  m_PrefabInstance: {fileID: 2975344194813639278}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6086897141858047474 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6738172719093984759, guid: 27f9efbba3f01a840b3fabbde2c0d572,
@@ -3103,7 +3102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92efd8aaa2ed9e545879d6374c2f7db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
-  animator: {fileID: 6086897141858047471}
   attackPoint: {fileID: 1634897311}
   enemyLayers:
     serializedVersion: 2

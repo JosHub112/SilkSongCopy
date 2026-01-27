@@ -33,7 +33,7 @@ public class PlayerMove : MonoBehaviour
         transform.Translate(speed);
 
         anim.SetFloat("Speed", Mathf.Abs(speed.x));
-        Debug.Log("Speed: " + Mathf.Abs(speed.x));
+        
 
         // Flip player model
         if (input != 0)
@@ -46,7 +46,7 @@ public class PlayerMove : MonoBehaviour
         HandleAnimations(input);
     }
 
-    void HandleAnimations(float input)
+    public void HandleAnimations(float input)
     {
         if (!core.IsGrounded()) return;
 
@@ -54,5 +54,7 @@ public class PlayerMove : MonoBehaviour
             core.anim.Play("PlayerRun"); // 1 animation for both directions
         else
             core.anim.Play("Idle");
+
+      
     }
 }

@@ -6,11 +6,12 @@ public class PlayerJump : PlayerMove
     [SerializeField] float extraJumpTime = 0.2f;
     private float _jumpTimeCounter;
     PlayerMove move;
-
+    Animator animator;
     PlayerCore core;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         core = GetComponent<PlayerCore>();
         move = GetComponent<PlayerMove>();
     }
@@ -19,26 +20,11 @@ public class PlayerJump : PlayerMove
     {
         if (Input.GetKeyDown(KeyCode.Space) && core.IsGrounded())
         {
+            animator.SetTrigger("Jump");
             core.rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             _jumpTimeCounter = extraJumpTime;
 
-            if (move.lastInput < 0)
-            {
-                core.anim.Play("PlayerJumpLeft");
-                Debug.Log("Jumped Left");
-            }
-                
-            else if (move.lastInput > 0)
-            {
-                core.anim.Play("PlayerJumpRight");
-                Debug.Log("Jumped Right");
-            }
-              
-            else
-            {
-                core.anim.Play("PlayerJump");
-                Debug.Log("Jumped");
-            }
+        
                 
         }
 
